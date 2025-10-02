@@ -1,15 +1,14 @@
 package ie.setu;
 
 class SavingsAccount {
-    static int numCounter = 0;
+    static int numCounter = 1;
     static double annInRate;
     double SavingsBalance;
     int accountNum;
 
     public SavingsAccount(double balance) {
         setBalance(balance);
-        ++numCounter;
-        setAccountNum(numCounter);
+        this.accountNum = numCounter++;
     }
 
     public void setBalance(double balance) {
@@ -18,10 +17,6 @@ class SavingsAccount {
 
     public double getBalance() {
         return SavingsBalance;
-    }
-
-    public void setAccountNum(int accountNum) {
-        this.accountNum = accountNum;
     }
 
     public int getAccountNum() {
