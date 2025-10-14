@@ -1,5 +1,8 @@
 package ie.setu;
-
+// Author: Tymofii Mazurenko
+// Student ID: C00325393
+// Date: 14/10/2025
+// Purpose: To complete myHR system and to use aggregation.
 
 public class Office {
 //  variables of an object are defined
